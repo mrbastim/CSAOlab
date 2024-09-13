@@ -1,4 +1,4 @@
-def choose_color(color):
+def choose_colour(colour):
     colours = {'white': 1,
             'blue': 1,
             'yellow': 1.1,
@@ -7,5 +7,5 @@ def choose_color(color):
             'metallic grey': 1.3 
     }
 
-    return colours.get(color.lower())
+    return colours.get(colour.lower())
 
