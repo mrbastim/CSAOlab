@@ -1,9 +1,9 @@
-def details_func(detail):
-    details_tup = {"капот": 1, 
-                "передняя дверь": 1.2, 
-                "задняя дверь": 1.1, 
-                "передний бампер": 1, 
-                "задний бампер": 1, 
-                "крыша": 1.1}
+def choose_detail(detail):
+    details_tup = {"hood": 1, 
+                "front door": 1.2, 
+                "back door": 1.1, 
+                "front  bumper": 1, 
+                "back bumper": 1, 
+                "roof": 1.1}
     return(details_tup[detail.lower()])
 
