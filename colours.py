@@ -1,4 +1,4 @@
-# conflict
+# conflict 1
 def choose_colour(colour):
     colours = {'white': 1,
             'blue': 1,
